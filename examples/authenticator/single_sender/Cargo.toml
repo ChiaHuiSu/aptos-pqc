@@ -1,0 +1,9 @@
+[package]
+name = "single_sender"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aptos-crypto = { path = "/home/chsu/aptos-pqc/aptos-core/crates/aptos-crypto" }
+aptos-types = { path = "/home/chsu/aptos-pqc/aptos-core/types", features = ["fuzzing"] }
+rand = "0.7"

@@ -1,0 +1,1 @@
+gcc main.c -I/home/chsu/aptos-pqc/liboqs/build/include -L/home/chsu/aptos-pqc/liboqs/build/lib -loqs -lcrypto -o main

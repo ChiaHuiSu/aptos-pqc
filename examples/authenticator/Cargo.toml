@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "single_sender",
+    "multi_signer",
+    "multi_agent",
+    "fee_payer"
+]

@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "avx_ffi_dilithium",
+    "avx_ffi_multi",
+    "multi_dilithium",
+    "multi_ed25519",
+    "single_dilithium",
+    "single_ed25519"
+]
