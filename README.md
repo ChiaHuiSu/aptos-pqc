@@ -14,6 +14,6 @@ Build liboqs static library
 ```bash=
 cd liboqs
 mkdir build && cd build
-cmake .. -DOQS_ENABLE_CPUEXTENSIONS=ON
+cmake -DOQS_USE_CPU_EXTENSIONS=ON ..
 make -j
 ```
